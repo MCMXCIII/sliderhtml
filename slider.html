@@ -40,6 +40,11 @@
 <p>Value: <span id="demo"></span></p>
 </div>
 
+//Add raw data to git to make function to call it.
+//What kind of graph is needed to list this?
+
+	
+	
 <script>
 var rangeslider = document.getElementById("sliderRange");
 var output = document.getElementById("demo");
@@ -48,6 +53,34 @@ output.innerHTML = rangeslider.value;
 rangeslider.oninput = function() {
 output.innerHTML = this.value;
 }
+//Listing a comment for next function onces varibales are given and link to output is here in git.	
+/*
+var selectorOptions = {
+    buttons: [{
+        step: 'month',
+        stepmode: 'backward',
+        count: 1,
+        label: '1m'
+    }, {
+        step: 'month',
+        stepmode: 'backward',
+        count: 6,
+        label: '6m'
+    }, {
+        step: 'year',
+        stepmode: 'todate',
+        count: 1,
+        label: 'YTD'
+    }, {
+        step: 'year',
+        stepmode: 'backward',
+        count: 1,
+        label: '1y'
+    }, {
+        step: 'all',
+    }],
+};
+*/
 </script>
 
 </body>
